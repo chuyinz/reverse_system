@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cms:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94ed329d-c66b-4211-9edd-4d9938653ebd" name="Default" comment="!!!">
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/ConflictCourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseMemberLimitStrategyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamAndStrategyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamOrStrategyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Course2VO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SelectCourse2VO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SelectCourseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SeminarScoreVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamCourseRequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee69525f-bce9-447e-9093-e229eff919cc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/CmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/CmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/SeminarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/SeminarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/SeminarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/SeminarDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/SeminarScoreDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/SeminarScoreDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeacherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/CourseMemberLimitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/CourseMemberLimitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/ExcelBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/ExcelBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Klass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Leader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/MemberLimitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/MemberLimitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/AttendanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/AttendanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ConflictCourseStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ConflictCourseStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMemberLimitStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMemberLimitStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassRoundMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassRoundMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassStudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassTeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassTeamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/MemberLimitStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/MemberLimitStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/RoundMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/RoundMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/RoundScoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/RoundScoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/SeminarMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/SeminarMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/SeminarScoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/SeminarScoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ShareTeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ShareTeamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamAndStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamAndStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamOrStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamOrStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStrategyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStrategyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamValidApplicationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamValidApplicationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/ScoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/SeminarManaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/SeminarManaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/TeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/websocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/AttendanceListVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/AttendanceListVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/AttendanceVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/AttendanceVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ConflictCourseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ConflictCourseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CourseInTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CourseInTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CourseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CourseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateCourseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateCourseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ExportSeminarScoreVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ExportSeminarScoreVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/GetTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/GetTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassInTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassInTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassRoundVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassRoundVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ModifyRoundVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ModifyRoundVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/OptionCourseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/OptionCourseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/QuestionVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/QuestionVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ReportScoreVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ReportScoreVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/RequestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/RequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/RoundVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/RoundVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ScoreVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ScoreVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Seminar1VO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Seminar1VO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SeminarVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SeminarVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ShareTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ShareTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SimpleRoundVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SimpleRoundVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/StudentInTeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/StudentInTeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/StudentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/StudentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Team1VO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Team1VO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Team2VO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Team2VO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamMemberVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamMemberVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamRequestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamRequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamShareRequestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamShareRequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamValidRequestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamValidRequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/resources/application-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/resources/application-mybatis.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cms/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CourseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3140">
+              <caret line="157" column="28" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="171" column="52" selection-start-line="171" selection-start-column="52" selection-end-line="171" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/resources/application-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/StudentDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+              <folding>
+                <element signature="e#1867#1868#0" expanded="true" />
+                <element signature="e#1912#1913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/StudentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2240">
+              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/CourseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6200">
+              <caret line="322" column="28" selection-start-line="322" selection-start-column="28" selection-end-line="322" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KlassDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/KlassDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KlassMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="yet_unknown" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>objs</find>
+      <find>utf-8</find>
+      <find>teamOrStrategyIdList</find>
+      <find>request</find>
+      <find>S</find>
+      <find>getAllCourse</find>
+      <find>@RequestMapping(value = &quot;&quot;</find>
+      <find>/{courseId}/teamshare</find>
+      <find>int</find>
+      <find>b</find>
+      <find>boolean</find>
+      <find>/{courseId}/team</find>
+      <find>studentvo</find>
+      <find>查看</find>
+      <find>getMemberLimitStrategy</find>
+      <find>getteamidbyleader</find>
+      <find>getIdBySubIdAndStatus</find>
+      <find>createklassteam</find>
+      <find>condition</find>
+      <find>attendance</find>
+      <find>teamshare</find>
+      <find>getTeamIdByTeacherIdAnd</find>
+      <find>getTeamValidByTeacherIdAnd</find>
+      <find>null</find>
+      <find>noteam</find>
+      <find>getIdByCourseId</find>
+      <find>共享</find>
+      <find>删除</find>
+      <find>upload</find>
+      <find>createklass</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Klass.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Course2VO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CourseVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ExportSeminarScoreVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/Team2VO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamCourseRequestVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateCourseVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SelectCourseVO2.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SelectCourse2VO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/UserController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/KlassRoundVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/ConflictCourseDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseMemberLimitStrategyDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamAndStrategyDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamOrStrategyDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/ExcelBean.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/utils/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/SeminarManaService.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ConflictCourseStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMemberLimitStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassRoundMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassTeamMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/MemberLimitStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamAndStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamOrStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStrategyMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamStudentMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassStudentMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/SelectCourseVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeamController.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/MemberLimitStrategy.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/SeminarController.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamValidApplicationMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ShareTeamMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/TeamService.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamRequestVO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeacherDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/RequestController.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamDAO.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeacherMapper.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/cms/src/main/resources/application-mybatis.xml" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/AccountService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1030" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_206" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Desktop/software_206/cms/src/main/java/com/example/cms/vo/TeamVo.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546606491083" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../software_206_admin" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15497077" />
+    <property name="project.structure.side.proportion" value="0.627153" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.cms.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cms.service" />
+      <recent name="com.example.cms.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\software_206\cms\src\main\java\com\example\cms\exception" />
+      <recent name="C:\Users\Administrator\Desktop\software_206\cms\src\test\java\com\example\cms" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CmsApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.service.AccountServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AccountServiceTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AccountServiceTest.testCreateAccount" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testCreateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AccountServiceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.service.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.controller.UserControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserControllerTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.cms.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cms.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="software_206" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cms.CmsApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56996" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountServiceTest.testCreateAccount" />
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Spring Boot.CmsApplication" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="JUnit.AccountServiceTest.testLogin" />
+      <item itemvalue="JUnit.UserControllerTest.login" />
+      <item itemvalue="JUnit.AccountServiceTest.login" />
+      <item itemvalue="JUnit.AccountServiceTest" />
+      <item itemvalue="JUnit.UserControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.login" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.AccountServiceTest.login" />
+        <item itemvalue="JUnit.AccountServiceTest" />
+        <item itemvalue="JUnit.AccountServiceTest.testLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94ed329d-c66b-4211-9edd-4d9938653ebd" name="Default" comment="" />
+      <created>1543569455657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543569455657</updated>
+      <workItem from="1543569457562" duration="12070000" />
+      <workItem from="1543585750802" duration="2703000" />
+      <workItem from="1543588633930" duration="1564000" />
+      <workItem from="1543627398061" duration="11766000" />
+      <workItem from="1543652457459" duration="238000" />
+      <workItem from="1543652856367" duration="1684000" />
+      <workItem from="1543655057916" duration="2609000" />
+      <workItem from="1543713766441" duration="7705000" />
+      <workItem from="1543742557092" duration="3669000" />
+      <workItem from="1543817638027" duration="12639000" />
+      <workItem from="1543830686949" duration="13151000" />
+      <workItem from="1543905126324" duration="2908000" />
+      <workItem from="1544253014550" duration="13100000" />
+      <workItem from="1544683767464" duration="15885000" />
+      <workItem from="1544773229098" duration="8450000" />
+      <workItem from="1544876905597" duration="7902000" />
+      <workItem from="1544947803050" duration="14872000" />
+      <workItem from="1545029090477" duration="7037000" />
+      <workItem from="1545036195328" duration="16014000" />
+      <workItem from="1545212952814" duration="609000" />
+      <workItem from="1545291997364" duration="1398000" />
+      <workItem from="1545293418017" duration="8047000" />
+      <workItem from="1545301493836" duration="4649000" />
+      <workItem from="1545309188024" duration="1581000" />
+      <workItem from="1545379221104" duration="5474000" />
+      <workItem from="1545444956067" duration="2418000" />
+      <workItem from="1545447387401" duration="20633000" />
+      <workItem from="1545477191025" duration="10798000" />
+      <workItem from="1545552207741" duration="14484000" />
+      <workItem from="1545626796004" duration="43932000" />
+      <workItem from="1545736727952" duration="1633000" />
+      <workItem from="1545742146967" duration="1232000" />
+      <workItem from="1545803016020" duration="26762000" />
+      <workItem from="1545899356591" duration="19142000" />
+      <workItem from="1545921414245" duration="131000" />
+      <workItem from="1545988699980" duration="19144000" />
+      <workItem from="1546067413723" duration="97409000" />
+      <workItem from="1546312802823" duration="4825000" />
+      <workItem from="1546317830354" duration="2122000" />
+      <workItem from="1546325921322" duration="5871000" />
+      <workItem from="1546409069681" duration="24352000" />
+      <workItem from="1546490918712" duration="4048000" />
+      <workItem from="1546520957398" duration="527000" />
+      <workItem from="1546521514916" duration="800000" />
+      <workItem from="1546576059508" duration="113000" />
+      <workItem from="1546580187393" duration="12512000" />
+      <workItem from="1546694964560" duration="4626000" />
+      <workItem from="1546753937613" duration="15680000" />
+      <workItem from="1546823253052" duration="4657000" />
+      <workItem from="1546834736379" duration="8453000" />
+      <workItem from="1597715860248" duration="32000" />
+      <workItem from="1597716177114" duration="8000" />
+    </task>
+    <task id="LOCAL-00001" summary="zhuv2.0">
+      <created>1543589224433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543589224433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改类名">
+      <created>1543628094296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543628094296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数据库文件">
+      <created>1543651217456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543651217456</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zhuv3.0">
+      <created>1543655127075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543655127075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zhuv3.0">
+      <created>1543655532614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543655532614</updated>
+    </task>
+    <task id="LOCAL-00006" summary="zhuv3.0">
+      <created>1543655859887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543655859887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="zhuv5.0">
+      <created>1543664423850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543664423850</updated>
+    </task>
+    <task id="LOCAL-00008" summary="admin test">
+      <created>1543905236841</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543905236841</updated>
+    </task>
+    <task id="LOCAL-00009" summary="admin by zhu">
+      <created>1543905501909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543905501909</updated>
+    </task>
+    <task id="LOCAL-00010" summary="db config">
+      <created>1543906122546</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543906122546</updated>
+    </task>
+    <task id="LOCAL-00011" summary="!!!">
+      <created>1546422432193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546422432193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserControllerTest_login - 2018.12.22 at 10h 57m 28s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.22 at 11h 21m 45s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.22 at 11h 24m 16s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.22 at 11h 25m 47s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2018.12.22 at 12h 07m 55s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2018.12.22 at 15h 08m 08s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.23 at 17h 33m 50s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.23 at 17h 37m 08s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.23 at 17h 39m 40s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_login - 2018.12.23 at 17h 40m 59s.xml">
+      <configuration name="UserControllerTest.login" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="577830000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5026042" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Application Servers" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="6" weight="0.32876712" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.3297587" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49934897" weight="0.19178082" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32739726" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49739584" weight="0.30821916" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2922252" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32465753" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.33551556" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49934897" weight="0.32242227" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.05479452" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zhuv2.0" />
+    <MESSAGE value="修改类名" />
+    <MESSAGE value="数据库文件" />
+    <MESSAGE value="zhuv3.0" />
+    <MESSAGE value="zhuv5.0" />
+    <MESSAGE value="admin test" />
+    <MESSAGE value="admin by zhu" />
+    <MESSAGE value="db config" />
+    <MESSAGE value="login&amp;createTeacher" />
+    <MESSAGE value="!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/UserService.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/SeminarController.java</url>
+          <line>223</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/MemberLimitStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/ConflictCourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/CreateCourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/OptionCourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/AttendanceListVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/SeminarDisplayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/exception/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/SeminarManaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="574" selection-start-line="574" selection-end-line="574" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/entity/Attendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/team_valid_application" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/teacher" />
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/course" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/team" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/klass_team" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/student" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/klass_student" />
+    <entry file="das://ee69525f-bce9-447e-9093-e229eff919cc/schema/standard_seminar_system/table/conflict_course_strategy" />
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/SeminarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="212" column="61" selection-start-line="212" selection-start-column="61" selection-end-line="212" selection-end-column="61" />
+          <folding>
+            <element signature="e#10057#10069#0" expanded="true" />
+            <element signature="e#12745#12759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/ShareTeamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamValidRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/vo/TeamRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamValidApplicationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/04572ed4-a019-4186-a59a-c6c8bde53873/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/AttendanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/RequestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="66" column="51" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/AttendanceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/ConflictCourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseMemberLimitStrategyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/TeamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/TeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="268" column="21" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeamDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/TeacherMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/TeacherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6200">
+          <caret line="322" column="28" selection-start-line="322" selection-start-column="28" selection-end-line="322" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/dao/KlassDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/mapper/KlassMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3140">
+          <caret line="157" column="28" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/resources/application-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/com/example/cms/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="171" column="52" selection-start-line="171" selection-start-column="52" selection-end-line="171" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cms:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (cms)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-web:5.1.2.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.627153" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
